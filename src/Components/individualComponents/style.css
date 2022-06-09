@@ -1,0 +1,38 @@
+.btn {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-style: none;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: var(--default-font);
+    font-weight: 500;
+    font-size: 1em; 
+}
+
+.btn:hover
+{
+    color: white;
+}
+
+.labelInputSet {
+    font-size: 1em;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    outline-style: solid;
+    outline-color: lightgray;
+    outline-width: 1px;
+    border-style: none;
+    border-radius: 3px;
+    width: 15em;
+    font-family: var(--default-font);    
+}
+
+
+.labelInputSet:focus{
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: var(--primary-color);
+}
